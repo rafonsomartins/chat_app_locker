@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SecureCard Chat</string>
+    
+    <!-- Authentication -->
+    <string name="hint_username">Username</string>
+    <string name="hint_password">Password</string>
+    <string name="btn_login">Login</string>
+    <string name="btn_register">Register</string>
+    <string name="text_no_account">Don\'t have an account?</string>
+    <string name="text_have_account">Already have an account?</string>
+    
+    <!-- NFC -->
+    <string name="nfc_prompt">Place your NFC card on the back of your phone</string>
+    <string name="nfc_not_supported">NFC is not supported on this device</string>
+    <string name="nfc_disabled">NFC is disabled. Please enable it in your settings</string>
+    
+    <!-- Chat -->
+    <string name="message_hint">Type your message…</string>
+    <string name="btn_send">Send</string>
+    <string name="message_encrypted">[Encrypted Message - Tap to decrypt]</string>
+    <string name="message_decryption_timeout">Message will be hidden again in %d seconds</string>
+    
+    <!-- Security warnings -->
+    <string name="warning_recipient_no_card">Warning: Recipient doesn\'t have a secure card. Message will be sent with standard encryption.</string>
+    <string name="remember_choice">Remember my choice</string>
+    <string name="btn_continue">Continue</string>
+    <string name="btn_cancel">Cancel</string>
+</resources> 
