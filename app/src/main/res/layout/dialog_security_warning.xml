@@ -1,74 +1,74 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:padding="16dp">
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:padding="16dp">
 
-    <TextView
-        android:id="@+id/tvWarningTitle"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Security Warning"
-        android:textColor="#FF0000"
-        android:textSize="18sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+	<TextView
+		android:id="@+id/tvWarningTitle"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Security Warning"
+		android:textColor="#FF0000"
+		android:textSize="18sp"
+		android:textStyle="bold"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageView
-        android:id="@+id/ivWarning"
-        android:layout_width="48dp"
-        android:layout_height="48dp"
-        android:layout_marginTop="16dp"
-        android:contentDescription="Warning"
-        android:src="@android:drawable/ic_dialog_alert"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvWarningTitle" />
+	<ImageView
+		android:id="@+id/ivWarning"
+		android:layout_width="48dp"
+		android:layout_height="48dp"
+		android:layout_marginTop="16dp"
+		android:contentDescription="Warning"
+		android:src="@android:drawable/ic_dialog_alert"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/tvWarningTitle" />
 
-    <TextView
-        android:id="@+id/tvWarningMessage"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:gravity="center"
-        android:text="@string/warning_recipient_no_card"
-        android:textSize="16sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ivWarning" />
+	<TextView
+		android:id="@+id/tvWarningMessage"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="16dp"
+		android:gravity="center"
+		android:text="@string/warning_recipient_no_card"
+		android:textSize="16sp"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/ivWarning" />
 
-    <CheckBox
-        android:id="@+id/cbRememberChoice"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:text="@string/remember_choice"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvWarningMessage" />
+	<CheckBox
+		android:id="@+id/cbRememberChoice"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="16dp"
+		android:text="@string/remember_choice"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/tvWarningMessage" />
 
-    <Button
-        android:id="@+id/btnCancel"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="8dp"
-        android:text="@string/btn_cancel"
-        app:layout_constraintEnd_toStartOf="@+id/btnContinue"
-        app:layout_constraintHorizontal_chainStyle="packed"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/cbRememberChoice" />
+	<Button
+		android:id="@+id/btnCancel"
+		android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="16dp"
+		android:layout_marginEnd="8dp"
+		android:text="@string/btn_cancel"
+		app:layout_constraintEnd_toStartOf="@+id/btnContinue"
+		app:layout_constraintHorizontal_chainStyle="packed"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/cbRememberChoice" />
 
-    <Button
-        android:id="@+id/btnContinue"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:text="@string/btn_continue"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/btnCancel"
-        app:layout_constraintTop_toTopOf="@+id/btnCancel" />
+	<Button
+		android:id="@+id/btnContinue"
+		android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		android:layout_marginStart="8dp"
+		android:text="@string/btn_continue"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toEndOf="@+id/btnCancel"
+		app:layout_constraintTop_toTopOf="@+id/btnCancel" />
 
 </androidx.constraintlayout.widget.ConstraintLayout> 

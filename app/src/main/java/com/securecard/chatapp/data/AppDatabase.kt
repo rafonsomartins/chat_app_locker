@@ -12,6 +12,6 @@ import com.securecard.chatapp.data.util.Converters
 @Database(entities = [User::class, Message::class], version = 1, exportSchema = false)
 @TypeConverters(Converters::class)
 abstract class AppDatabase : RoomDatabase() {
-    abstract fun userDao(): UserDao
-    abstract fun messageDao(): MessageDao
-} 
+	abstract fun userDao(): UserDao
+	abstract fun messageDao(): MessageDao
+}
